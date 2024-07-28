@@ -1,6 +1,6 @@
 When multiple instances of a microservice is deployed and the requirement comes stating only one of the instances should perform a particular task with zero downtime, i.e. if the performer instance gets down, one of the other instances should take up the task, we need distributed locking to address this problem. Here is a simple implementation of the same using Zookeeper and spring boot applications.
 
-Follow the instructions in the README to run the application. For more information visit : 
+Follow the instructions in the README to run the application. For more information visit : https://medium.com/@dibyajyotidhar/implement-distributed-locking-in-spring-boot-microservices-using-zookeeper-ff7c02b90478
 
 1. Make sure Docker is running in your PC.
 
